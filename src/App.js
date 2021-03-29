@@ -20,7 +20,7 @@ export default class TweetList extends React.Component {
   render() {
     return (
       <div>
-        <h1>Liver Person Twitter Feed(Recent)</h1>
+        <h1>Live Person Twitter Feed(Recent)</h1>
       {this.state.tweets.map(data => (
         <p><b>Tweet ID: </b> {data.tweetid} <b>|Twitter ID:</b> {data.twitterid} |<b>Tweet: </b> {data.tweet} |<b>Created At: </b> {data.createddate}</p>
       ))}
